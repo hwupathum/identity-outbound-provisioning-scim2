@@ -25,7 +25,7 @@
     <groupId>org.wso2.carbon.identity.outbound.provisioning.scim2</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-outbound-provisioning-scim2</artifactId>
-    <version>2.0.1</version>
+    <version>3.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - SCIM 2.0 - Provisioning Module</name>
     <description>
@@ -48,7 +48,7 @@
          <url>https://github.com/wso2-extensions/identity-outbound-provisioning-scim2.git</url>
          <developerConnection>scm:git:https://github.com/wso2-extensions/identity-outbound-provisioning-scim2.git</developerConnection>
          <connection>scm:git:https://github.com/wso2-extensions/identity-outbound-provisioning-scim2.git</connection>
-         <tag>v2.0.1</tag>
+         <tag>v3.0.0-SNAPSHOT</tag>
      </scm>
 
     <dependencyManagement>
@@ -241,9 +241,9 @@
 
     <properties>
         <!--Carbon framework version-->
-        <carbon.identity.framework.import.version.range>[5.0.0, 6.0.0)</carbon.identity.framework.import.version.range>
-        <identity.framework.version>5.21.37</identity.framework.version>
-        <carbon.identity.framework.import.version.range>[5.0.0, 6.0.0)</carbon.identity.framework.import.version.range>
+        <carbon.identity.framework.import.version.range>[6.0.0, 7.0.0)</carbon.identity.framework.import.version.range>
+        <identity.framework.version>6.0.0</identity.framework.version>
+        <carbon.identity.framework.import.version.range>[6.0.0, 7.0.0)</carbon.identity.framework.import.version.range>
         <identity.inbound.provisioning.scim.version>5.1.3</identity.inbound.provisioning.scim.version>
         <identity.inbound.provisioning.scim.import.version.range>[5.0.0, 6.0.0)
         </identity.inbound.provisioning.scim.import.version.range>
